@@ -1,0 +1,47 @@
+.breadcrumb {
+  background: none;
+}
+
+/* Style to change separator  */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+#left {
+  padding-right: 40px;
+}
+
+#right {
+  background: #eeeeee;
+  padding: 40px;
+}
+
+input, select {
+  margin: 14px;
+}
+
+.clearfix {
+  margin: 0 0 0 14px;
+}
+
+button {
+  white-space: nowrap;
+  position: relative;
+  bottom: 10px;
+  left: 16px;
+}
+
+img {
+  width: 80px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.item-price {
+  padding: 36px 0 0 0;
+}
+
+.bottom-margin {
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=style.css.map */

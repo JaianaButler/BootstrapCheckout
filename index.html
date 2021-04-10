@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <title>Checkout</title>
+  </head>
+  <body>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7" id="left">
+
+            <div class="container">
+              <h1 class="display-4">Checkout</h1>
+            </div>
+
+            <div class="container bottom-margin">
+              <nav aria-label="breadcrumb" class="d-none d-md-block">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Cart</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Shipping</li>
+                  <li class="breadcrumb-item"><a href="#">Payment</a></li>
+                </ol>
+              </nav>
+            </div>
+            
+            <div class="container" id="shippingContainer">
+              <form>
+                <h3 class="mx-2">Contact information</h3>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group bottom-margin">
+                  <div class="form-check mx-3">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label text-muted" for="gridCheck">
+                      Keep me up to date on news and exclusive offers
+                    </label>
+                  </div>
+                </div>
+
+                <h3 class="mx-2">Shipping address</h3>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                  </div>
+                </div>
+        
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="inputAddress1" placeholder="Address">
+                  </div>
+                </div>
+        
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, suite, etc (optional)">
+                  </div>
+                </div>
+      
+                <div class="form-row bottom-margin">
+                  <div class="col-md-4">
+                    <input type="text" class="form-control" id="inputCity" placeholder="City">
+                  </div>
+                  <div class="col-md-4">
+                    <select id="inputState" class="form-control">
+                      <option selected>Georgia</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control" id="inputZipCode" placeholder="Zip Code">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col"></div>
+                </div>
+
+                <div class="clearfix">
+                  <p class="float-left"><a href="#">Return to cart</a></p>
+                  <p class="float-right"><button type="button" class="btn btn-primary">Continue to payment method</button></p>
+                </div>
+              </form>
+            </div> 
+          </div>
+
+          <div class="col-md-5" id="right">
+            <div class="clearfix order-item bottom-margin">
+              <p class="float-left"><img src="images/ffvii-icon.jpg"> Final Fantasy VII: Remake</p>
+              <p class="float-right item-price">$59.99</p>
+            </div>
+
+            <div class="clearfix order-item bottom-margin">
+              <p class="float-left"><img src="images/tlou-icon.jpg"> The Last of Us Part II</p>
+              <p class="float-right item-price">$59.99</p>
+            </div>
+
+            <hr>
+
+            <div class="clearfix">
+              <p class="float-left">Subtotal</p>
+              <p class="float-right">$119.98</p>
+            </div>
+            <div class="clearfix">
+              <p class="float-left">Shipping</p>
+              <p class="float-right">Free</p>
+            </div>
+            <div class="clearfix">
+              <p class="float-left">Taxes</p>
+              <p class="float-right">$11.02</p>
+            </div>
+
+            <hr>
+
+            <div class="clearfix">
+              <p class="float-left">Total</p>
+              <p class="float-right">$131.00</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
