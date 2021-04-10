@@ -1,2 +1,3 @@
 # BootstrapCheckout
 
+![](images/checkoutScreenShot.png)
