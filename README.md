@@ -1,5 +1,5 @@
 # BootstrapCheckout
 
-Simple, single page checkout. Implemented using Bootstrap.
+Simple, responsive, single page checkout. Implemented using Bootstrap.
 
 ![](images/CheckoutScreenShot.png)
